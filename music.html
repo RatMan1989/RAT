@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Music</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: #000000; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; min-height: 100vh; }
+        header { padding: 2rem; text-align: center; }
+        nav { margin-top: 1.5rem; }
+        .nav-links { list-style: none; display: flex; justify-content: center; gap: 2rem; }
+        .nav-links a { color: #ffffff; text-decoration: none; font-size: 1.1rem; font-weight: 500; padding: 0.5rem 1rem; border: 1px solid transparent; border-radius: 4px; transition: all 0.3s ease; }
+        .nav-links a:hover, .nav-links a.active { border-color: #ffffff; background-color: #ffffff; color: #000000; }
+        main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; }
+        .content h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .content p { font-size: 1.2rem; color: #a0a0a0; max-width: 600px; margin-bottom: 1.5rem; }
+        .music-list { list-style: none; }
+        .music-list li { padding: 0.5rem 0; font-size: 1.1rem; border-bottom: 1px solid #111111; }
+        footer { text-align: center; padding: 1.5rem; font-size: 0.9rem; color: #666666; border-top: 1px solid #222222; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gaming.html">Gaming</a></li>
+                <li><a href="drawing.html">Drawing</a></li>
+                <li><a href="music.html" class="active">Music</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <h1>What I'm Listening To</h1>
+            <p>Music is a huge part of my day. Here are a few artists or tracks currently on repeat:</p>
+            <ul class="music-list">
+                <li>🎵 Artist Name - Song Title</li>
+                <li>🎵 Artist Name - Song Title</li>
+                <li>🎵 Artist Name - Song Title</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
